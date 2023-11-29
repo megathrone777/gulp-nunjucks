@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true
+  },
+  "files": ["ts/main.ts"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "NodeNext"
+    }
+  }
+}

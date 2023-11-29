@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blank</title>
+    <link rel="stylesheet" href="./css/init.css">
+</head>
+<body>
+    <div class="wrapper">
+        {% include "header.njk" %}
+
+        {% block content %}
+        {% endblock %}
+
+        {% include "footer.njk" %}
+    </div>   
+
+    <script src="./js/vendor.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
